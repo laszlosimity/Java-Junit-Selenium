@@ -82,7 +82,7 @@
                 <configuration>
                     <source>1.4</source>
                     <target>1.4</target>
-                    <complianceLevel>1.4</complianceLevel>
+                    <complianceLevel>9.0</complianceLevel>
                 </configuration>
                 <executions>
                     <execution>
