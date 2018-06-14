@@ -18,8 +18,8 @@ import java.util.LinkedList;
 public class TestBase {
 
 
-    public static String username = System.getenv("BS_USERNAME");
-    public static String accesskey = System.getenv("BS_PASSWORD");
+    public static String username = System.getenv("BROWSERSTACK_USERNAME");
+    public static String accesskey = System.getenv("BROWSERSTACK_ACCESS_KEY");
     public static String seleniumURI;
     public static String buildTag;
 
