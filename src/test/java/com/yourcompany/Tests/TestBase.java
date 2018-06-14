@@ -91,6 +91,7 @@ public class TestBase {
         capabilities.setCapability("browser", browser);
         capabilities.setCapability("browser_version", version);
         capabilities.setCapability("os", os);
+        capabilities.setCapability("build", System.getenv("BROWSERSTACK_BUILD"));
         //capabilities.setCapability(FirefoxDriver.PROFILE, profile);
         //capabilities.setCapability("deviceName", deviceName);
         //capabilities.setCapability("device-orientation", deviceOrientation);
