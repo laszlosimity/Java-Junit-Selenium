@@ -28,6 +28,7 @@ public class TextInputTest extends TestBase {
         page.visitPage();
         page.submitComment(commentInputText);
 
-        assertThat(page.getSubmittedCommentText(), containsString(commentInputText));
+        //assertThat(page.getSubmittedCommentText(), containsString(commentInputText));
+        assertThat(page.getSubmittedCommentText(), containsString("banana"));
     }
 }
